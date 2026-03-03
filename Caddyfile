@@ -1,10 +1,1 @@
-:80 {
-  root * /srv
-  try_files {path} /index.html
-  file_server
-
-  # Minimal health route for Coolify checks.
-  respond /health 200 {
-    body "ok"
-  }
-}
+# Replaced by scripts/server.mjs runtime in Docker.
