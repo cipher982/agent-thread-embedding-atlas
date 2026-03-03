@@ -615,7 +615,7 @@ async function main() {
     .option("--pivot-quantile <n>", "Pivot threshold quantile", "0.85")
     .option("--seed <n>", "Random seed", "1337")
     .option("--force-local", "Use local fallback embeddings only", false)
-    .option("--output <path>", "Output JSON path", "data/dataset.json")
+    .option("--output <path>", "Output JSON path", "public/data/dataset.json")
     .parse(process.argv);
 
   const opts = program.opts();

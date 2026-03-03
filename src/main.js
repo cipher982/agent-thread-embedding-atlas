@@ -395,7 +395,7 @@ async function init() {
     document.querySelector("#app").innerHTML = `
       <main class="panel" style="padding:20px; max-width:780px; margin:20px auto;">
         <h1>Dataset missing</h1>
-        <p class="sub">Run <code>bun run build:dataset</code> to generate <code>data/dataset.json</code>.</p>
+        <p class="sub">Run <code>bun run build:dataset</code> to generate <code>public/data/dataset.json</code>.</p>
         <pre>${String(error.message || error)}</pre>
       </main>
     `;

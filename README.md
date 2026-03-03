@@ -48,7 +48,7 @@ Useful flags:
 - `--pivot-quantile 0.85`
 - `--force-local` (skip OpenAI API calls)
 
-Output file defaults to `data/dataset.json`.
+Output file defaults to `public/data/dataset.json`.
 
 ## Notes
 
