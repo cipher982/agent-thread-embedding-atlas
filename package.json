@@ -1,0 +1,23 @@
+{
+  "name": "agent-thread-embedding-viz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:dataset": "node scripts/build-dataset.mjs"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "fast-glob": "^3.3.3",
+    "ml-kmeans": "^6.0.0",
+    "openai": "^6.7.0",
+    "plotly.js-gl3d-dist-min": "^3.4.0",
+    "umap-js": "^1.4.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}

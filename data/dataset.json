@@ -1,0 +1,3469 @@
+{
+  "generatedAt": "2026-03-03T16:28:26.464Z",
+  "config": {
+    "embeddingModel": "text-embedding-3-small",
+    "dimensions": 256,
+    "pivotQuantile": 0.85,
+    "seed": 1337,
+    "sources": {
+      "zetaRoot": "/Users/davidrose/git/zeta",
+      "zergFixtures": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures"
+    }
+  },
+  "stats": {
+    "points": 140,
+    "threads": 26,
+    "trajectories": 26,
+    "pivotThreshold": 0.635524,
+    "sourceCounts": {
+      "zerg-codex-fixture": 2,
+      "zerg-claude-fixture": 2,
+      "zerg-gemini-fixture": 6,
+      "zeta-session-analysis": 130
+    }
+  },
+  "clusters": [
+    {
+      "id": 0,
+      "size": 22,
+      "label": "experiences · experience · create · builder",
+      "centroid": [
+        0.920453,
+        -0.265426,
+        -0.424353
+      ]
+    },
+    {
+      "id": 1,
+      "size": 37,
+      "label": "reply · exactly · valid · string",
+      "centroid": [
+        0.864002,
+        0.87767,
+        -0.864354
+      ]
+    },
+    {
+      "id": 2,
+      "size": 13,
+      "label": "report · received · our · many",
+      "centroid": [
+        0.90409,
+        -0.335426,
+        0.25694
+      ]
+    },
+    {
+      "id": 3,
+      "size": 10,
+      "label": "were · total · across · last",
+      "centroid": [
+        -0.985468,
+        -0.941942,
+        0.9221
+      ]
+    },
+    {
+      "id": 4,
+      "size": 21,
+      "label": "today · assist · gemini · like",
+      "centroid": [
+        0.856059,
+        0.503894,
+        0.492472
+      ]
+    },
+    {
+      "id": 5,
+      "size": 14,
+      "label": "equals · follow-up · after · tasks",
+      "centroid": [
+        0.974892,
+        0.30279,
+        -0.211256
+      ]
+    },
+    {
+      "id": 6,
+      "size": 13,
+      "label": "audience · engagement · optimization · individual",
+      "centroid": [
+        0.961298,
+        -0.139866,
+        -0.133351
+      ]
+    },
+    {
+      "id": 7,
+      "size": 10,
+      "label": "report · containing · session · sorry",
+      "centroid": [
+        0.937862,
+        -0.509324,
+        -0.112762
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 18,
+      "firstTimestamp": "2023-05-05T16:52:47.000Z",
+      "lastTimestamp": "2023-05-05T16:53:03.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 14,
+      "firstTimestamp": "2023-05-04T18:20:37.000Z",
+      "lastTimestamp": "2023-05-04T18:20:49.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 8,
+      "firstTimestamp": "2023-05-04T13:28:57.000Z",
+      "lastTimestamp": "2023-05-04T13:29:03.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 8,
+      "firstTimestamp": "2023-05-04T13:50:56.000Z",
+      "lastTimestamp": "2023-05-04T13:51:02.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T12:16:54.000Z",
+      "lastTimestamp": "2023-05-05T12:16:58.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T12:17:50.000Z",
+      "lastTimestamp": "2023-05-05T12:17:54.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T12:22:08.000Z",
+      "lastTimestamp": "2023-05-05T12:22:12.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T16:45:06.000Z",
+      "lastTimestamp": "2023-05-05T16:45:10.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T16:49:05.000Z",
+      "lastTimestamp": "2023-05-05T16:49:09.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T16:49:53.000Z",
+      "lastTimestamp": "2023-05-05T16:49:57.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T16:50:41.000Z",
+      "lastTimestamp": "2023-05-05T16:50:45.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 6,
+      "firstTimestamp": "2023-05-05T16:51:56.000Z",
+      "lastTimestamp": "2023-05-05T16:52:00.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "sourceType": "zerg-gemini-fixture",
+      "pointCount": 4,
+      "firstTimestamp": "2026-01-01T10:00:00.000Z",
+      "lastTimestamp": "2026-01-01T10:00:03.000Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-03T17:29:29.000Z",
+      "lastTimestamp": "2023-05-03T17:29:31.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-03T18:20:42.000Z",
+      "lastTimestamp": "2023-05-03T18:20:44.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-04T13:22:04.000Z",
+      "lastTimestamp": "2023-05-04T13:22:06.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-04T13:26:41.000Z",
+      "lastTimestamp": "2023-05-04T13:26:43.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-06T11:51:16.000Z",
+      "lastTimestamp": "2023-05-06T11:51:18.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-06T13:10:00.000Z",
+      "lastTimestamp": "2023-05-06T13:10:02.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 4,
+      "firstTimestamp": "2023-05-06T13:11:23.000Z",
+      "lastTimestamp": "2023-05-06T13:11:25.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "019a4bea-3f39-7fe1-b132-6c14579e806c",
+      "sourceType": "zerg-codex-fixture",
+      "pointCount": 2,
+      "firstTimestamp": "2026-01-10T11:00:01.000Z",
+      "lastTimestamp": "2026-01-10T11:00:03.000Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "1dd6c481-7d7b-498a-b492-c33c917889b9",
+      "sourceType": "zerg-claude-fixture",
+      "pointCount": 2,
+      "firstTimestamp": "2026-01-10T10:00:00.000Z",
+      "lastTimestamp": "2026-01-10T10:00:05.000Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "5053c934-f66d-4fea-96af-f95181de5986",
+      "sourceType": "zerg-gemini-fixture",
+      "pointCount": 2,
+      "firstTimestamp": "2026-02-20T15:59:12.296Z",
+      "lastTimestamp": "2026-02-20T15:59:15.853Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 2,
+      "firstTimestamp": "2023-05-03T17:08:29.000Z",
+      "lastTimestamp": "2023-05-03T17:08:29.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 2,
+      "firstTimestamp": "2023-05-03T17:10:13.000Z",
+      "lastTimestamp": "2023-05-03T17:10:13.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    },
+    {
+      "id": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239",
+      "sourceType": "zeta-session-analysis",
+      "pointCount": 2,
+      "firstTimestamp": "2023-05-08T18:39:58.000Z",
+      "lastTimestamp": "2023-05-08T18:39:58.900Z",
+      "roles": [
+        "user",
+        "assistant"
+      ]
+    }
+  ],
+  "trajectories": [
+    {
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "pointIds": [
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-0",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-0",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-1",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-1",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-2",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-2",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-3",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-3",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-4",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-4",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-5",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-5",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-6",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-6",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-7",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-7",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-8",
+        "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-8"
+      ]
+    },
+    {
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "pointIds": [
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-0",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-0",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-1",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-1",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-2",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-2",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-3",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-3",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-4",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-4",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-5",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-5",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-6",
+        "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-6"
+      ]
+    },
+    {
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "pointIds": [
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-0",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-0",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-1",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-1",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-2",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-2",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-3",
+        "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-3"
+      ]
+    },
+    {
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "pointIds": [
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-0",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-0",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-1",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-1",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-2",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-2",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-3",
+        "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-3"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "pointIds": [
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-0",
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-0",
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-1",
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-1",
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-2",
+        "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "pointIds": [
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-0",
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-0",
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-1",
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-1",
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-2",
+        "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "pointIds": [
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-0",
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-0",
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-1",
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-1",
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-2",
+        "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "pointIds": [
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-0",
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-0",
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-1",
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-1",
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-2",
+        "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "pointIds": [
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-0",
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-0",
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-1",
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-1",
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-2",
+        "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "pointIds": [
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-0",
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-0",
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-1",
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-1",
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-2",
+        "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "pointIds": [
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-0",
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-0",
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-1",
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-1",
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-2",
+        "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-2"
+      ]
+    },
+    {
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "pointIds": [
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-0",
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-0",
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-1",
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-1",
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-2",
+        "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-2"
+      ]
+    },
+    {
+      "threadId": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "pointIds": [
+        "d1f7b8a2-3e4c-4f56-a789-012345678901-0",
+        "d1f7b8a2-3e4c-4f56-a789-012345678901-1",
+        "d1f7b8a2-3e4c-4f56-a789-012345678901-2",
+        "d1f7b8a2-3e4c-4f56-a789-012345678901-3"
+      ]
+    },
+    {
+      "threadId": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "pointIds": [
+        "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-u-0",
+        "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-a-0",
+        "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-u-1",
+        "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "pointIds": [
+        "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-u-0",
+        "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-a-0",
+        "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-u-1",
+        "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "pointIds": [
+        "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-u-0",
+        "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-a-0",
+        "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-u-1",
+        "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "pointIds": [
+        "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-u-0",
+        "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-a-0",
+        "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-u-1",
+        "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "pointIds": [
+        "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-u-0",
+        "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-a-0",
+        "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-u-1",
+        "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "pointIds": [
+        "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-u-0",
+        "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-a-0",
+        "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-u-1",
+        "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-a-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "pointIds": [
+        "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-u-0",
+        "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-a-0",
+        "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-u-1",
+        "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-a-1"
+      ]
+    },
+    {
+      "threadId": "019a4bea-3f39-7fe1-b132-6c14579e806c",
+      "pointIds": [
+        "019a4bea-3f39-7fe1-b132-6c14579e806c-1",
+        "019a4bea-3f39-7fe1-b132-6c14579e806c-2"
+      ]
+    },
+    {
+      "threadId": "1dd6c481-7d7b-498a-b492-c33c917889b9",
+      "pointIds": [
+        "1dd6c481-7d7b-498a-b492-c33c917889b9-0",
+        "1dd6c481-7d7b-498a-b492-c33c917889b9-1"
+      ]
+    },
+    {
+      "threadId": "5053c934-f66d-4fea-96af-f95181de5986",
+      "pointIds": [
+        "5053c934-f66d-4fea-96af-f95181de5986-0",
+        "5053c934-f66d-4fea-96af-f95181de5986-1"
+      ]
+    },
+    {
+      "threadId": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1",
+      "pointIds": [
+        "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1-u-0",
+        "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1-a-0"
+      ]
+    },
+    {
+      "threadId": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1",
+      "pointIds": [
+        "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1-u-0",
+        "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1-a-0"
+      ]
+    },
+    {
+      "threadId": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239",
+      "pointIds": [
+        "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239-u-0",
+        "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239-a-0"
+      ]
+    }
+  ],
+  "points": [
+    {
+      "id": "019a4bea-3f39-7fe1-b132-6c14579e806c-1",
+      "threadId": "019a4bea-3f39-7fe1-b132-6c14579e806c",
+      "seq": 1,
+      "role": "user",
+      "text": "What is 1+1?",
+      "timestamp": "2026-01-10T11:00:01.000Z",
+      "sourceType": "zerg-codex-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/019a4bea-3f39-7fe1-b132-6c14579e806c.jsonl",
+      "modelName": "codex",
+      "projection": [
+        0.932069,
+        0.436977,
+        -0.41027
+      ],
+      "cluster": 5,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "019a4bea-3f39-7fe1-b132-6c14579e806c-2",
+      "threadId": "019a4bea-3f39-7fe1-b132-6c14579e806c",
+      "seq": 2,
+      "role": "assistant",
+      "text": "1+1 equals 2.",
+      "timestamp": "2026-01-10T11:00:03.000Z",
+      "sourceType": "zerg-codex-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/019a4bea-3f39-7fe1-b132-6c14579e806c.jsonl",
+      "modelName": "codex",
+      "projection": [
+        0.940523,
+        0.388707,
+        -0.367998
+      ],
+      "cluster": 5,
+      "pivotScore": 0.255036,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "1dd6c481-7d7b-498a-b492-c33c917889b9-0",
+      "threadId": "1dd6c481-7d7b-498a-b492-c33c917889b9",
+      "seq": 0,
+      "role": "user",
+      "text": "List all MCP tools you have access to that contain 'agent' or 'mesh' in their name.",
+      "timestamp": "2026-01-10T10:00:00.000Z",
+      "sourceType": "zerg-claude-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/1dd6c481-7d7b-498a-b492-c33c917889b9.jsonl",
+      "modelName": "claude",
+      "projection": [
+        0.936795,
+        -0.414008,
+        -0.312658
+      ],
+      "cluster": 0,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "1dd6c481-7d7b-498a-b492-c33c917889b9-1",
+      "threadId": "1dd6c481-7d7b-498a-b492-c33c917889b9",
+      "seq": 1,
+      "role": "assistant",
+      "text": "I don't have any MCP tools containing 'agent' or 'mesh' in their names in this session.",
+      "timestamp": "2026-01-10T10:00:05.000Z",
+      "sourceType": "zerg-claude-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/1dd6c481-7d7b-498a-b492-c33c917889b9.jsonl",
+      "modelName": "claude-sonnet-4-5",
+      "projection": [
+        0.921588,
+        -0.450005,
+        -0.282944
+      ],
+      "cluster": 7,
+      "pivotScore": 0.175279,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "5053c934-f66d-4fea-96af-f95181de5986-0",
+      "threadId": "5053c934-f66d-4fea-96af-f95181de5986",
+      "seq": 0,
+      "role": "user",
+      "text": "Reply with exactly: \"gemini ok\" -",
+      "timestamp": "2026-02-20T15:59:12.296Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_session.json",
+      "modelName": "gemini",
+      "projection": [
+        0.800686,
+        0.955379,
+        -0.793289
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "5053c934-f66d-4fea-96af-f95181de5986-1",
+      "threadId": "5053c934-f66d-4fea-96af-f95181de5986",
+      "seq": 1,
+      "role": "assistant",
+      "text": "gemini ok",
+      "timestamp": "2026-02-20T15:59:15.853Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_session.json",
+      "modelName": "gemini-3-pro-preview",
+      "projection": [
+        0.85901,
+        0.56749,
+        0.591517
+      ],
+      "cluster": 4,
+      "pivotScore": 0.21054,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "d1f7b8a2-3e4c-4f56-a789-012345678901-0",
+      "threadId": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "seq": 0,
+      "role": "user",
+      "text": "valid string message",
+      "timestamp": "2026-01-01T10:00:00.000Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_drift.json",
+      "modelName": "gemini",
+      "projection": [
+        0.818117,
+        0.847192,
+        -0.837532
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "d1f7b8a2-3e4c-4f56-a789-012345678901-1",
+      "threadId": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "seq": 1,
+      "role": "assistant",
+      "text": "{\"parts\":[{\"text\":\"object content response\"}],\"role\":\"model\"}",
+      "timestamp": "2026-01-01T10:00:01.000Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_drift.json",
+      "modelName": "gemini",
+      "projection": [
+        0.796529,
+        0.90907,
+        -0.821304
+      ],
+      "cluster": 1,
+      "pivotScore": 0.766429,
+      "isPivot": true,
+      "clusterTransition": false
+    },
+    {
+      "id": "d1f7b8a2-3e4c-4f56-a789-012345678901-2",
+      "threadId": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "seq": 2,
+      "role": "user",
+      "text": "follow-up after object content",
+      "timestamp": "2026-01-01T10:00:02.000Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_drift.json",
+      "modelName": "gemini",
+      "projection": [
+        0.919616,
+        0.55537,
+        -0.262609
+      ],
+      "cluster": 5,
+      "pivotScore": 0.538084,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "d1f7b8a2-3e4c-4f56-a789-012345678901-3",
+      "threadId": "d1f7b8a2-3e4c-4f56-a789-012345678901",
+      "seq": 3,
+      "role": "assistant",
+      "text": "normal string response",
+      "timestamp": "2026-01-01T10:00:03.000Z",
+      "sourceType": "zerg-gemini-fixture",
+      "sourcePath": "/Users/davidrose/git/zerg/apps/zerg/backend/tests/integration/fixtures/gemini_drift.json",
+      "modelName": "gemini",
+      "projection": [
+        0.822804,
+        0.773754,
+        -0.802094
+      ],
+      "cluster": 1,
+      "pivotScore": 0.621349,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1-u-0",
+      "threadId": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): hello",
+      "timestamp": "2023-05-03T17:08:29.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_170829-02bk8njl/files/media/table/session_analysis_0_affbff269256c137fff1.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.803669,
+        0.937523,
+        -0.893204
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1-a-0",
+      "threadId": "zeta-20230503_170829-02bk8njl-session_analysis_0_affbff269256c137fff1",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-03T17:08:29.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_170829-02bk8njl/files/media/table/session_analysis_0_affbff269256c137fff1.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.847277,
+        0.470882,
+        0.467258
+      ],
+      "cluster": 4,
+      "pivotScore": 0.591068,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1-u-0",
+      "threadId": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): hello",
+      "timestamp": "2023-05-03T17:10:13.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_171013-xxlrpcjw/files/media/table/session_analysis_0_affbff269256c137fff1.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.807066,
+        0.963058,
+        -0.921114
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1-a-0",
+      "threadId": "zeta-20230503_171013-xxlrpcjw-session_analysis_0_affbff269256c137fff1",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-03T17:10:13.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_171013-xxlrpcjw/files/media/table/session_analysis_0_affbff269256c137fff1.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.824325,
+        0.549223,
+        0.496545
+      ],
+      "cluster": 4,
+      "pivotScore": 0.591068,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-u-0",
+      "threadId": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create experiences in the ZMP?",
+      "timestamp": "2023-05-03T17:29:29.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_172929-3y1jkv4u/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.892822,
+        -0.287658,
+        -0.546486
+      ],
+      "cluster": 0,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-a-0",
+      "threadId": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 5,
+      "role": "assistant",
+      "text": "How do I create experiences in the ZMP?",
+      "timestamp": "2023-05-03T17:29:29.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_172929-3y1jkv4u/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.885609,
+        -0.396023,
+        -0.54851
+      ],
+      "cluster": 0,
+      "pivotScore": 0.257383,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-u-1",
+      "threadId": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create experiences in the ZMP? AI: { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create experiences in the ZMP?\" } Human: TOOL RESPONSE: --------------------- Answer: To create experiences in the ZMP, you can use the Experience Builder tool. This tool allows you to build, deploy, and analyze one-to-one experiences for customers. You can access the Experience Builder by clicking on Experiences > Builder from the taskbar on the left of the screen. Within the Experience Builder, you can use a combination of four types of nodes (Trigger Event, Event, Delay, Actions, and Split) to create experiences with just a few clicks. Additionally, you can create experiences based on Campaign Events, with additional filters such as skip, unsubscribe, bounce, and delivered. Experiences in the ZMP are evaluated one node at a time, with the logic created within an experience evaluated for the user only in the node they are currently passing through or being held at. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-03T17:29:31.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_172929-3y1jkv4u/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.893394,
+        -0.326948,
+        -0.47815
+      ],
+      "cluster": 0,
+      "pivotScore": 0.203348,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089-a-1",
+      "threadId": "zeta-20230503_172929-3y1jkv4u-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 13,
+      "role": "assistant",
+      "text": "To create experiences in the ZMP, you can use the Experience Builder tool. This tool allows you to build, deploy, and analyze one-to-one experiences for customers. Within the Experience Builder, you can use a combination of four types of nodes (Trigger Event, Event, Delay, Actions, and Split) to create experiences with just a few clicks. Additionally, you can create experiences based on Campaign Events, with additional filters such as skip, unsubscribe, bounce, and delivered. Experiences in the ZMP are evaluated one node at a time, with the logic created within an experience evaluated for the user only in the node they are currently passing through or being held at.",
+      "timestamp": "2023-05-03T17:29:31.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_172929-3y1jkv4u/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.885833,
+        -0.373183,
+        -0.514864
+      ],
+      "cluster": 0,
+      "pivotScore": 0.165021,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-u-0",
+      "threadId": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create experiences in the ZMP?",
+      "timestamp": "2023-05-03T18:20:42.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_182042-h4byowe2/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.904509,
+        -0.277497,
+        -0.51865
+      ],
+      "cluster": 0,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-a-0",
+      "threadId": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 5,
+      "role": "assistant",
+      "text": "How do I create experiences in the ZMP?",
+      "timestamp": "2023-05-03T18:20:42.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_182042-h4byowe2/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.879365,
+        -0.402912,
+        -0.567832
+      ],
+      "cluster": 0,
+      "pivotScore": 0.257383,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-u-1",
+      "threadId": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create experiences in the ZMP? AI: { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create experiences in the ZMP?\" } Human: TOOL RESPONSE: --------------------- Answer: To create experiences in the ZMP, you can use the Experience Builder tool. This tool allows you to build, deploy, and analyze one-to-one experiences for customers. You can access the Experience Builder by clicking on Experiences > Builder from the taskbar on the left of the screen. Within the Experience Builder, you can use a combination of four types of nodes (Trigger Event, Event, Delay, Actions, and Split) to create experiences with just a few clicks. Additionally, you can create experiences based on Campaign Events, with additional filters such as skip, unsubscribe, bounce, and delivered. Experiences in the ZMP are evaluated one node at a time, with the logic created within an experience evaluated for the user only in the node they are currently passing through or being held at. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-03T18:20:44.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_182042-h4byowe2/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.913026,
+        -0.349859,
+        -0.497274
+      ],
+      "cluster": 0,
+      "pivotScore": 0.202452,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089-a-1",
+      "threadId": "zeta-20230503_182042-h4byowe2-session_analysis_0_fff08c9c5d3674805089",
+      "seq": 13,
+      "role": "assistant",
+      "text": "To create experiences in the ZMP, you can use the Experience Builder tool. This tool allows you to build, deploy, and analyze one-to-one experiences for customers. Within the Experience Builder, you can use a combination of four types of nodes (Trigger Event, Event, Delay, Actions, and Split) to create experiences with just a few clicks. Additionally, you can create experiences based on Campaign Events, with additional filters such as skip, unsubscribe, bounce, and delivered. Experiences in the ZMP are evaluated one node at a time, with the logic created within an experience evaluated for the user only in the node they are currently passing through or being held at.",
+      "timestamp": "2023-05-03T18:20:44.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230503_182042-h4byowe2/files/media/table/session_analysis_0_fff08c9c5d3674805089.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.900382,
+        -0.382998,
+        -0.525435
+      ],
+      "cluster": 0,
+      "pivotScore": 0.163994,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-u-0",
+      "threadId": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-04T13:22:04.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132204-xw1j52bv/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.879918,
+        0.904541,
+        -0.998987
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-a-0",
+      "threadId": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-04T13:22:04.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132204-xw1j52bv/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.838778,
+        0.572841,
+        0.471931
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582139,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-u-1",
+      "threadId": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How is it going?",
+      "timestamp": "2023-05-04T13:22:06.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132204-xw1j52bv/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.910125,
+        0.595643,
+        -0.805383
+      ],
+      "cluster": 1,
+      "pivotScore": 0.521756,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0-a-1",
+      "threadId": "zeta-20230504_132204-xw1j52bv-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"I'm an AI language model, so I don't have feelings, but I'm here to assist you with any questions or tasks you may have!\" } ```",
+      "timestamp": "2023-05-04T13:22:06.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132204-xw1j52bv/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.997803,
+        0.207117,
+        -0.114756
+      ],
+      "cluster": 5,
+      "pivotScore": 0.330424,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-u-0",
+      "threadId": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-04T13:26:41.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132641-q1v14r3n/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.867521,
+        0.903858,
+        -0.911399
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-a-0",
+      "threadId": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-04T13:26:41.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132641-q1v14r3n/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.84423,
+        0.496388,
+        0.470745
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582333,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-u-1",
+      "threadId": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How is it going?",
+      "timestamp": "2023-05-04T13:26:43.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132641-q1v14r3n/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.892233,
+        0.615135,
+        -0.772406
+      ],
+      "cluster": 1,
+      "pivotScore": 0.521805,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0-a-1",
+      "threadId": "zeta-20230504_132641-q1v14r3n-session_analysis_0_facc560795c0a46f79c0",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"I'm an AI language model, so I don't have feelings, but I'm here to assist you with any questions or tasks you may have!\" } ```",
+      "timestamp": "2023-05-04T13:26:43.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132641-q1v14r3n/files/media/table/session_analysis_0_facc560795c0a46f79c0.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.978924,
+        0.250177,
+        -0.099947
+      ],
+      "cluster": 5,
+      "pivotScore": 0.330424,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-0",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-04T13:28:57.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.854762,
+        0.976121,
+        -0.983571
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-0",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-04T13:28:57.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.792125,
+        0.517861,
+        0.458785
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582305,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-1",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta?",
+      "timestamp": "2023-05-04T13:28:59.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.893409,
+        -0.136649,
+        -0.42971
+      ],
+      "cluster": 0,
+      "pivotScore": 0.632257,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-1",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create Campaigns for Zeta?\" } ```",
+      "timestamp": "2023-05-04T13:28:59.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.935633,
+        -0.084485,
+        -0.24748
+      ],
+      "cluster": 6,
+      "pivotScore": 0.194691,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-2",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta? AI: ```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create Campaigns for Zeta?\" } ``` Human: TOOL RESPONSE: --------------------- Answer: You can create campaigns for Zeta using the Zeta Marketing Platform. The ZMP Knowledge Base provides FAQs about Zeta Campaigns, including how to create folders, sharing access, custom font html, attaching documents, coupon codes, send triggers, seed list, tags, reports, archived campaigns, multi-version campaigns, seed recipients, Prime Time dashboard, default send time, custom KPIs, link names and tags, and HTML content. You can also create Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. Additionally, you can integrate your data into the Zeta Marketing Platform with Adobe Campaign. For more detailed information on how to create campaigns, I recommend referring to the ZMP Knowledge Base and the specific documentation for the type of campaign you want to create. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-04T13:29:01.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.950958,
+        -0.251766,
+        -0.346644
+      ],
+      "cluster": 0,
+      "pivotScore": 0.212694,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-2",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 21,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"To create campaigns for Zeta, you can use the Zeta Marketing Platform. The platform provides detailed documentation on how to create different types of campaigns, including Triggered Campaigns which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. You can also integrate your data into the Zeta Marketing Platform with Adobe Campaign. For more information, please refer to the ZMP Knowledge Base and the specific documentation for the type of campaign you want to create.\" } ```",
+      "timestamp": "2023-05-04T13:29:01.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.939645,
+        -0.17917,
+        -0.275904
+      ],
+      "cluster": 6,
+      "pivotScore": 0.144818,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-u-3",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 28,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok thank you?",
+      "timestamp": "2023-05-04T13:29:03.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.871233,
+        0.994958,
+        -0.709787
+      ],
+      "cluster": 1,
+      "pivotScore": 0.515773,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8-a-3",
+      "threadId": "zeta-20230504_132857-fy6s7e3s-session_analysis_0_f41d9c4e607481cb87d8",
+      "seq": 29,
+      "role": "assistant",
+      "text": "You're welcome! Let me know if you have any other questions.",
+      "timestamp": "2023-05-04T13:29:03.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_132857-fy6s7e3s/files/media/table/session_analysis_0_f41d9c4e607481cb87d8.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.996071,
+        0.358947,
+        -0.22235
+      ],
+      "cluster": 5,
+      "pivotScore": 0.611764,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-0",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-04T13:50:56.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.865105,
+        0.999673,
+        -0.931636
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-0",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-04T13:50:56.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.806817,
+        0.498821,
+        0.541812
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582139,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-1",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta?",
+      "timestamp": "2023-05-04T13:50:58.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.935885,
+        -0.187344,
+        -0.425279
+      ],
+      "cluster": 0,
+      "pivotScore": 0.632326,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-1",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create Campaigns for Zeta?\" } ```",
+      "timestamp": "2023-05-04T13:50:58.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.957907,
+        -0.101158,
+        -0.208461
+      ],
+      "cluster": 6,
+      "pivotScore": 0.194611,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-2",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta? AI: ```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create Campaigns for Zeta?\" } ``` Human: TOOL RESPONSE: --------------------- Answer: You can create campaigns for Zeta using the Zeta Marketing Platform. The ZMP Knowledge Base provides FAQs about Zeta Campaigns, including how to create folders, sharing access, custom font html, attaching documents, coupon codes, send triggers, seed list, tags, reports, archived campaigns, multi-version campaigns, seed recipients, Prime Time dashboard, default send time, custom KPIs, link names and tags, and HTML content. You can also create Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. Additionally, you can integrate your data into the Zeta Marketing Platform with Adobe Campaign. For more detailed information on how to create campaigns, I recommend referring to the ZMP Knowledge Base and the specific documentation for the type of campaign you want to create. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-04T13:51:00.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.915305,
+        -0.220192,
+        -0.317319
+      ],
+      "cluster": 0,
+      "pivotScore": 0.212671,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-2",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 21,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"To create campaigns for Zeta, you can use the Zeta Marketing Platform. The platform provides detailed documentation on how to create different types of campaigns, including Triggered Campaigns which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. You can also integrate your data into the Zeta Marketing Platform with Adobe Campaign. For more information, please refer to the ZMP Knowledge Base and the specific documentation for the type of campaign you want to create.\" } ```",
+      "timestamp": "2023-05-04T13:51:00.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.94116,
+        -0.225853,
+        -0.285783
+      ],
+      "cluster": 0,
+      "pivotScore": 0.144818,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-u-3",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 28,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok thank you?",
+      "timestamp": "2023-05-04T13:51:02.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.871677,
+        0.985121,
+        -0.717251
+      ],
+      "cluster": 1,
+      "pivotScore": 0.515543,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb-a-3",
+      "threadId": "zeta-20230504_135056-2tu5e2gi-session_analysis_0_50af3bfa0161dae1baeb",
+      "seq": 29,
+      "role": "assistant",
+      "text": "You're welcome! Let me know if you have any other questions.",
+      "timestamp": "2023-05-04T13:51:02.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_135056-2tu5e2gi/files/media/table/session_analysis_0_50af3bfa0161dae1baeb.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.981719,
+        0.375059,
+        -0.197998
+      ],
+      "cluster": 5,
+      "pivotScore": 0.612156,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-0",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-04T18:20:37.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.894084,
+        0.905529,
+        -0.906908
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-0",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I help you today?",
+      "timestamp": "2023-05-04T18:20:37.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.93044,
+        0.516497,
+        0.557617
+      ],
+      "cluster": 4,
+      "pivotScore": 0.585969,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-1",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta?",
+      "timestamp": "2023-05-04T18:20:39.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.918237,
+        -0.149061,
+        -0.459274
+      ],
+      "cluster": 0,
+      "pivotScore": 0.634924,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-1",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How do I create campaigns in Zeta?",
+      "timestamp": "2023-05-04T18:20:39.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.974727,
+        -0.174066,
+        -0.383359
+      ],
+      "cluster": 0,
+      "pivotScore": 0.264366,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-2",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta? AI: { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create campaigns in Zeta?\" } Human: TOOL RESPONSE: --------------------- Answer: To create campaigns in Zeta, you can use the Zeta Campaigns feature. You can find frequently asked questions about Zeta Campaigns in the ZMP Knowledge Base, including how to create folders, share access, use custom font HTML, attach documents, use coupon codes, send triggers, use seed lists, use tags, generate reports, archive campaigns, create multi-version campaigns, and more. Additionally, Zeta offers Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. You can create Triggered Campaigns using the API or through the Zeta Marketing Platform. If you need further assistance, please let me know. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-04T18:20:41.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.904165,
+        -0.214469,
+        -0.336246
+      ],
+      "cluster": 0,
+      "pivotScore": 0.190634,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-2",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 21,
+      "role": "assistant",
+      "text": "To create campaigns in Zeta, you can use the Zeta Campaigns feature. You can find frequently asked questions about Zeta Campaigns in the ZMP Knowledge Base, including how to create folders, share access, use custom font HTML, attach documents, use coupon codes, send triggers, use seed lists, use tags, generate reports, archive campaigns, create multi-version campaigns, and more. Additionally, Zeta offers Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. You can create Triggered Campaigns using the API or through the Zeta Marketing Platform. If you need further assistance, please let me know.",
+      "timestamp": "2023-05-04T18:20:41.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.954768,
+        -0.242095,
+        -0.362728
+      ],
+      "cluster": 0,
+      "pivotScore": 0.153964,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-3",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 28,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok thank you",
+      "timestamp": "2023-05-04T18:20:43.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.918925,
+        0.961538,
+        -0.71069
+      ],
+      "cluster": 1,
+      "pivotScore": 0.79118,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-3",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 29,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"You're welcome! Let me know if you have any other questions or if there's anything else I can help you with.\" } ```",
+      "timestamp": "2023-05-04T18:20:43.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.988234,
+        0.227821,
+        -0.212947
+      ],
+      "cluster": 5,
+      "pivotScore": 0.316677,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-4",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 36,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): What is the best time to send an email?",
+      "timestamp": "2023-05-04T18:20:45.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.863588,
+        0.799088,
+        -0.922515
+      ],
+      "cluster": 1,
+      "pivotScore": 0.415294,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-4",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 37,
+      "role": "assistant",
+      "text": "```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"What is the best time to send an email?\" } ```",
+      "timestamp": "2023-05-04T18:20:45.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.970945,
+        0.010202,
+        -0.132889
+      ],
+      "cluster": 6,
+      "pivotScore": 0.283759,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-5",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 44,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): What is the best time to send an email? AI: ```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"What is the best time to send an email?\" } ``` Human: TOOL RESPONSE: --------------------- The best time to send an email can vary depending on your audience and their engagement habits. Zeta Global's Prime Time Optimization feature can help optimize the send time of your campaign for each individual member in your audience to improve open rates. Initially, with a new audience, prime time is effectively random and spreads the send out pretty evenly throughout the send window. Over time, the platform will learn the engagement habits of individual audience members and will begin to focus on the following \"hot spots\" for each member: engagement is measured by an hour of the day and day of the week, and lift is measured against a 10% control group that the platform deploys immediately at the beginning of the send window. So, it's recommended to use Zeta's Prime Time Optimization feature to determine the best time to send your email. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-04T18:20:47.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.957892,
+        -0.294946,
+        -0.146973
+      ],
+      "cluster": 6,
+      "pivotScore": 0.328224,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-5",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 45,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"The best time to send an email can vary depending on your audience and their engagement habits. Zeta Global's Prime Time Optimization feature can help optimize the send time of your campaign for each individual member in your audience to improve open rates. It measures engagement by hour of the day and day of the week, and lift is measured against a 10% control group that the platform deploys immediately at the beginning of the send window. Therefore, it is recommended to use Zeta's Prime Time Optimization feature to determine the best time to send your email.\" } ```",
+      "timestamp": "2023-05-04T18:20:47.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.96183,
+        -0.214116,
+        -0.151831
+      ],
+      "cluster": 6,
+      "pivotScore": 0.114933,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-u-6",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 52,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok that is all thanks",
+      "timestamp": "2023-05-04T18:20:49.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.890773,
+        0.970817,
+        -0.733509
+      ],
+      "cluster": 1,
+      "pivotScore": 0.591919,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483-a-6",
+      "threadId": "zeta-20230504_182037-xlrm7px2-session_analysis_0_7d9186b511a5ba51b483",
+      "seq": 53,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"You're welcome! Don't hesitate to reach out if you have any further questions or need assistance in the future.\" } ```",
+      "timestamp": "2023-05-04T18:20:49.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230504_182037-xlrm7px2/files/media/table/session_analysis_0_7d9186b511a5ba51b483.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.998445,
+        0.238133,
+        -0.217723
+      ],
+      "cluster": 5,
+      "pivotScore": 0.287319,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-0",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T12:16:54.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.844128,
+        0.911664,
+        -1
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-0",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I help you today?",
+      "timestamp": "2023-05-05T12:16:54.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.944386,
+        0.489333,
+        0.527756
+      ],
+      "cluster": 4,
+      "pivotScore": 0.585857,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-1",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T12:16:56.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.870129,
+        -0.354512,
+        0.345044
+      ],
+      "cluster": 2,
+      "pivotScore": 0.680699,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-1",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } ```",
+      "timestamp": "2023-05-05T12:16:56.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.956987,
+        -0.16204,
+        0.01967
+      ],
+      "cluster": 6,
+      "pivotScore": 0.235659,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-u-2",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: ```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } ``` Human: TOOL RESPONSE: --------------------- I'm sorry, but I don't have enough information to answer your question. The documents I have access to provide information on specific features of Zeta Global's marketing platform, but not on the specific performance of your marketing campaigns. To get information on the clicks and conversions of your campaigns, you may want to check the analytics and reporting features within the Zeta Marketing Platform or contact Zeta Global's customer support for assistance. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T12:16:58.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.938892,
+        -0.476379,
+        -0.083437
+      ],
+      "cluster": 7,
+      "pivotScore": 0.233339,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377-a-2",
+      "threadId": "zeta-20230505_121654-warhyvq8-session_analysis_0_40900a59479ad7450377",
+      "seq": 21,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"To get information on the clicks and conversions of your campaigns, you may want to check the analytics and reporting features within the Zeta Marketing Platform or contact Zeta Global's customer support for assistance.\" } ```",
+      "timestamp": "2023-05-05T12:16:58.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121654-warhyvq8/files/media/table/session_analysis_0_40900a59479ad7450377.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.975245,
+        -0.101796,
+        -0.044747
+      ],
+      "cluster": 6,
+      "pivotScore": 0.249279,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-0",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T12:17:50.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.896508,
+        0.949198,
+        -0.930033
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-0",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I help you today?",
+      "timestamp": "2023-05-05T12:17:50.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.928546,
+        0.523716,
+        0.564309
+      ],
+      "cluster": 4,
+      "pivotScore": 0.585936,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-1",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T12:17:52.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.873708,
+        -0.328469,
+        0.289693
+      ],
+      "cluster": 2,
+      "pivotScore": 0.680721,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-1",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"Please provide me with a report of the clicks and conversions of our marketing campaigns in the last 30 days.\" } ```",
+      "timestamp": "2023-05-05T12:17:52.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.934675,
+        -0.246753,
+        0.091429
+      ],
+      "cluster": 2,
+      "pivotScore": 0.251113,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-u-2",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: ```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"Please provide me with a report of the clicks and conversions of our marketing campaigns in the last 30 days.\" } ``` Human: TOOL RESPONSE: --------------------- {\"message\": \"The report builder failed to generate a report with our previous request. We should try again or ask the user for help.\"} USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T12:17:54.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.947432,
+        -0.456872,
+        0.001454
+      ],
+      "cluster": 7,
+      "pivotScore": 0.196751,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6-a-2",
+      "threadId": "zeta-20230505_121750-sfxpxnfq-session_analysis_0_93bd0d6efe8ab7bf69b6",
+      "seq": 21,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"To get information on the clicks and conversions of your campaigns, you may want to check the analytics and reporting features within the Zeta Marketing Platform or contact Zeta Global's customer support for assistance.\" } ```",
+      "timestamp": "2023-05-05T12:17:54.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_121750-sfxpxnfq/files/media/table/session_analysis_0_93bd0d6efe8ab7bf69b6.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.989094,
+        -0.077757,
+        -0.032711
+      ],
+      "cluster": 6,
+      "pivotScore": 0.304534,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-0",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T12:22:08.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.852522,
+        0.98828,
+        -0.912286
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-0",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I help you today?",
+      "timestamp": "2023-05-05T12:22:08.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.926988,
+        0.522334,
+        0.564417
+      ],
+      "cluster": 4,
+      "pivotScore": 0.585958,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-1",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T12:22:10.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.887498,
+        -0.376587,
+        0.372429
+      ],
+      "cluster": 2,
+      "pivotScore": 0.680666,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-1",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"Please provide me with a report of the clicks and conversions received by our marketing campaigns in the last 30 days.\" } ```",
+      "timestamp": "2023-05-05T12:22:10.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.940414,
+        -0.291178,
+        0.13805
+      ],
+      "cluster": 2,
+      "pivotScore": 0.243792,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-u-2",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: ```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"Please provide me with a report of the clicks and conversions received by our marketing campaigns in the last 30 days.\" } ``` Human: TOOL RESPONSE: --------------------- {\"message\": \"The report builder failed to generate a report with our previous request. We should try again or ask the user for help.\"} USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T12:22:12.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.935087,
+        -0.4664,
+        -0.023657
+      ],
+      "cluster": 7,
+      "pivotScore": 0.197087,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338-a-2",
+      "threadId": "zeta-20230505_122208-6vmqsstg-session_analysis_0_7e502dfbb61df2a51338",
+      "seq": 21,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"To get information on the clicks and conversions of your campaigns, you may want to check the analytics and reporting features within the Zeta Marketing Platform or contact Zeta Global's customer support for assistance.\" } ```",
+      "timestamp": "2023-05-05T12:22:12.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_122208-6vmqsstg/files/media/table/session_analysis_0_7e502dfbb61df2a51338.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.962242,
+        -0.07985,
+        -0.070872
+      ],
+      "cluster": 6,
+      "pivotScore": 0.305388,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-0",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:45:06.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.821832,
+        1,
+        -0.964053
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-0",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:45:06.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.790903,
+        0.523355,
+        0.497215
+      ],
+      "cluster": 4,
+      "pivotScore": 0.58207,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-1",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:45:08.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.877739,
+        -0.35756,
+        0.28246
+      ],
+      "cluster": 2,
+      "pivotScore": 0.689176,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-1",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:45:08.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.977057,
+        -0.963343,
+        0.976297
+      ],
+      "cluster": 3,
+      "pivotScore": 0.228766,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-u-2",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:45:10.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.954959,
+        -0.564187,
+        -0.131364
+      ],
+      "cluster": 7,
+      "pivotScore": 0.289231,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043-a-2",
+      "threadId": "zeta-20230505_164506-t33khl6a-session_analysis_0_310b53bf4a424b078043",
+      "seq": 21,
+      "role": "assistant",
+      "text": "In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.",
+      "timestamp": "2023-05-05T16:45:10.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164506-t33khl6a/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.993394,
+        -0.909621,
+        0.846111
+      ],
+      "cluster": 3,
+      "pivotScore": 0.371002,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-0",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:49:05.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.84317,
+        0.939669,
+        -0.953841
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-0",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:49:05.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.812,
+        0.504183,
+        0.516153
+      ],
+      "cluster": 4,
+      "pivotScore": 0.581928,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-1",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:49:07.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.908022,
+        -0.396529,
+        0.30378
+      ],
+      "cluster": 2,
+      "pivotScore": 0.689101,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-1",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:49:07.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -1,
+        -1,
+        0.9847
+      ],
+      "cluster": 3,
+      "pivotScore": 0.228863,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-u-2",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:49:09.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.935794,
+        -0.564129,
+        -0.112174
+      ],
+      "cluster": 7,
+      "pivotScore": 0.289171,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043-a-2",
+      "threadId": "zeta-20230505_164905-32c3tyh5-session_analysis_0_310b53bf4a424b078043",
+      "seq": 21,
+      "role": "assistant",
+      "text": "In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.",
+      "timestamp": "2023-05-05T16:49:09.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164905-32c3tyh5/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.98537,
+        -0.912782,
+        0.866655
+      ],
+      "cluster": 3,
+      "pivotScore": 0.370947,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-0",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:49:53.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.878694,
+        0.937082,
+        -0.953697
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-0",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:49:53.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.802683,
+        0.474507,
+        0.565347
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582109,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-1",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:49:55.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.878023,
+        -0.409169,
+        0.338392
+      ],
+      "cluster": 2,
+      "pivotScore": 0.689148,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-1",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:49:55.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.993197,
+        -0.989077,
+        1
+      ],
+      "cluster": 3,
+      "pivotScore": 0.228816,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-u-2",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:49:57.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.944256,
+        -0.543925,
+        -0.107869
+      ],
+      "cluster": 7,
+      "pivotScore": 0.289267,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043-a-2",
+      "threadId": "zeta-20230505_164953-4r0yp8k0-session_analysis_0_310b53bf4a424b078043",
+      "seq": 21,
+      "role": "assistant",
+      "text": "In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.",
+      "timestamp": "2023-05-05T16:49:57.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_164953-4r0yp8k0/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.999757,
+        -0.899213,
+        0.852015
+      ],
+      "cluster": 3,
+      "pivotScore": 0.371044,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-0",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:50:41.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.858175,
+        0.980534,
+        -0.892988
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-0",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:50:41.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.84798,
+        0.53639,
+        0.50639
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582314,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-1",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:50:43.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.885454,
+        -0.383084,
+        0.352173
+      ],
+      "cluster": 2,
+      "pivotScore": 0.689246,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-1",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:50:43.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.97364,
+        -0.958397,
+        0.960864
+      ],
+      "cluster": 3,
+      "pivotScore": 0.228863,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-u-2",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:50:45.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.925546,
+        -0.524107,
+        -0.135905
+      ],
+      "cluster": 7,
+      "pivotScore": 0.289231,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043-a-2",
+      "threadId": "zeta-20230505_165041-ood47rwe-session_analysis_0_310b53bf4a424b078043",
+      "seq": 21,
+      "role": "assistant",
+      "text": "In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.",
+      "timestamp": "2023-05-05T16:50:45.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165041-ood47rwe/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.972683,
+        -0.923503,
+        0.870783
+      ],
+      "cluster": 3,
+      "pivotScore": 0.37112,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-0",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:51:56.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.854783,
+        0.955095,
+        -0.845978
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-0",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:51:56.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.850581,
+        0.507846,
+        0.549039
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582143,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-1",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:51:58.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.914808,
+        -0.386067,
+        0.321702
+      ],
+      "cluster": 2,
+      "pivotScore": 0.689101,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-1",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:51:58.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.981673,
+        -0.969495,
+        0.984807
+      ],
+      "cluster": 3,
+      "pivotScore": 0.22891,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-u-2",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:52:00.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.932791,
+        -0.524423,
+        -0.152491
+      ],
+      "cluster": 7,
+      "pivotScore": 0.289258,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043-a-2",
+      "threadId": "zeta-20230505_165156-vb99wes2-session_analysis_0_310b53bf4a424b078043",
+      "seq": 21,
+      "role": "assistant",
+      "text": "In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.",
+      "timestamp": "2023-05-05T16:52:00.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165156-vb99wes2/files/media/table/session_analysis_0_310b53bf4a424b078043.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        -0.977909,
+        -0.89399,
+        0.878769
+      ],
+      "cluster": 3,
+      "pivotScore": 0.371044,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-0",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-05T16:52:47.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.833033,
+        0.905716,
+        -0.912032
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-0",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-05T16:52:47.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.800477,
+        0.49479,
+        0.517126
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582305,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-1",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta?",
+      "timestamp": "2023-05-05T16:52:49.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.913108,
+        -0.178525,
+        -0.431161
+      ],
+      "cluster": 0,
+      "pivotScore": 0.632343,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-1",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 13,
+      "role": "assistant",
+      "text": "How do I create Campaigns for Zeta?",
+      "timestamp": "2023-05-05T16:52:49.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.96385,
+        -0.164038,
+        -0.366194
+      ],
+      "cluster": 0,
+      "pivotScore": 0.266839,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-2",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 20,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How do I create Campaigns for Zeta? AI: { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"How do I create Campaigns for Zeta?\" } Human: TOOL RESPONSE: --------------------- Answer: You can create campaigns for Zeta using the Zeta Marketing Platform. The ZMP Knowledge Base provides FAQs about Zeta Campaigns, including how to create folders, sharing access, custom font html, attaching documents, coupon codes, send triggers, seed list, tags, reports, archived campaigns, multi-version campaigns, seed recipients, Prime Time dashboard, default send time, custom KPIs, link names and tags, and HTML content. You can also create Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. Additionally, you can integrate your data into the Zeta Marketing Platform with Adobe Campaign. For more detailed information on how to create campaigns, I recommend referring to the ZMP Knowledge Base or seeking assistance from a Zeta Global expert. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:52:51.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.930666,
+        -0.230037,
+        -0.307077
+      ],
+      "cluster": 0,
+      "pivotScore": 0.198343,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-2",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 21,
+      "role": "assistant",
+      "text": "To create campaigns for Zeta, you can use the Zeta Marketing Platform. The ZMP Knowledge Base provides detailed information on how to create campaigns, including how to create folders, share access, attach documents, use coupon codes, send triggers, seed lists, tags, reports, archived campaigns, multi-version campaigns, seed recipients, Prime Time dashboard, default send time, custom KPIs, link names and tags, and HTML content. Additionally, you can create Triggered Campaigns, which are 1:1 event-based campaigns that cater to a single subscriber based on their past events or behavior. You can also integrate your data into the Zeta Marketing Platform with Adobe Campaign. If you need further assistance, you can seek help from a Zeta Global expert.",
+      "timestamp": "2023-05-05T16:52:51.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.961983,
+        -0.254199,
+        -0.375138
+      ],
+      "cluster": 0,
+      "pivotScore": 0.148751,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-3",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 28,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok thank you",
+      "timestamp": "2023-05-05T16:52:53.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.906237,
+        0.977244,
+        -0.750131
+      ],
+      "cluster": 1,
+      "pivotScore": 0.811341,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-3",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 29,
+      "role": "assistant",
+      "text": "Here is a markdown code snippet of a JSON blob with a single action to provide a follow-up message to the user: ```json { \"action\": \"Final Answer\", \"action_input\": \"You're welcome! Let me know if you have any other questions or if there's anything else I can help you with.\" } ```",
+      "timestamp": "2023-05-05T16:52:53.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.992255,
+        0.293043,
+        -0.258915
+      ],
+      "cluster": 5,
+      "pivotScore": 0.260888,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-4",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 36,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): What is the best time to send an email?",
+      "timestamp": "2023-05-05T16:52:55.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.845911,
+        0.818734,
+        -0.95743
+      ],
+      "cluster": 1,
+      "pivotScore": 0.323564,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-4",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 37,
+      "role": "assistant",
+      "text": "```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"What is the best time to send an email?\" } ```",
+      "timestamp": "2023-05-05T16:52:55.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.967288,
+        -0.008202,
+        -0.114364
+      ],
+      "cluster": 6,
+      "pivotScore": 0.283922,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-5",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 44,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): What is the best time to send an email? AI: ```json { \"action\": \"ZetaKnowledgeBaseQA\", \"action_input\": \"What is the best time to send an email?\" } ``` Human: TOOL RESPONSE: --------------------- The best time to send an email can vary depending on the individual engagement habits of your audience members. Zeta Global's Prime Time Optimization feature can help optimize the send time of your campaign for each individual member in your audience to improve open rates. Initially, with a new audience, prime time is effectively random and spreads the send out pretty evenly throughout the send window. Over time, the platform will learn the engagement habits of individual audience members and will begin to focus on the following \"hot spots\" for each member: engagement is measured by an hour of the day and day of the week, and lift is measured against a 10% control group that the platform deploys immediately at the beginning of the send window. So, it is recommended to use Zeta's Prime Time Optimization feature to determine the best time to send an email for your specific audience. USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:52:57.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.957808,
+        -0.322869,
+        -0.179301
+      ],
+      "cluster": 6,
+      "pivotScore": 0.332908,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-5",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 45,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"The best time to send an email can vary depending on the individual engagement habits of your audience members. Zeta Global's Prime Time Optimization feature can help optimize the send time of your campaign for each individual member in your audience to improve open rates. It is recommended to use Zeta's Prime Time Optimization feature to determine the best time to send an email for your specific audience.\" } ```",
+      "timestamp": "2023-05-05T16:52:57.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.964363,
+        -0.202067,
+        -0.147698
+      ],
+      "cluster": 6,
+      "pivotScore": 0.124732,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-6",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 52,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Ok that is all thanks",
+      "timestamp": "2023-05-05T16:52:59.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.897041,
+        0.952161,
+        -0.758465
+      ],
+      "cluster": 1,
+      "pivotScore": 0.564544,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-6",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 53,
+      "role": "assistant",
+      "text": "Here is your final answer: ```json { \"action\": \"Final Answer\", \"action_input\": \"You're welcome! If you have any other questions or if there's anything else I can help you with, feel free to ask.\" } ```",
+      "timestamp": "2023-05-05T16:52:59.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.976596,
+        0.281597,
+        -0.182877
+      ],
+      "cluster": 5,
+      "pivotScore": 0.323794,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-7",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 60,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days?",
+      "timestamp": "2023-05-05T16:53:01.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.892368,
+        -0.35987,
+        0.320993
+      ],
+      "cluster": 2,
+      "pivotScore": 0.521214,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-7",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 61,
+      "role": "assistant",
+      "text": "```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } ```",
+      "timestamp": "2023-05-05T16:53:01.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.948407,
+        -0.241334,
+        0.083833
+      ],
+      "cluster": 2,
+      "pivotScore": 0.221726,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-u-8",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 68,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How many clicks and conversions did our marketing campaigns receive in the last 30 days? AI: ```json { \"action\": \"report_builder_analytics_tool\", \"action_input\": \"How many clicks and conversions did our marketing campaigns receive in the last 30 days?\" } ``` Human: TOOL RESPONSE: --------------------- campaign_id clicks conversions 0 102301 0 0 1 129128 481 0 2 143192 20 0 3 172554 0 0 4 172565 0 0 5 194491 0 0 6 194498 0 0 7 194507 0 0 8 204842 580 0 9 205023 1 0 10 205034 9 0 11 208629 0 0 12 208663 0 0 13 21370 0 0 14 213993 0 0 15 213996 0 0 16 224165 0 0 17 245758 9 0 18 245766 17 0 19 251599 0 0 20 255765 0 0 21 257583 69 0 22 257722 1 0 23 259112 0 0 24 25958 1 0 25 267866 1794 0 26 279130 0 0 27 296912 0 0 28 351350 0 0 29 355525 0 0 30 355927 0 0 31 372374 0 0 32 467572 0 0 33 476836 151 0 34 476838 333 0 35 552523 0 0 36 557745 0 0 37 557923 0 0 38 6314 19 0 39 696814 0 0 40 737582 0 0 41 803987 0 0 42 862731 34 0 43 871501 0 0 44 871528 0 0 45 87213 0 0 46 872915 0 0 47 876319 25 0 48 894030 3 0 49 895786 1 0 50 902030 1 0 USER'S INPUT -------------------- Okay, now use the information above to help answer the question. If using information obtained from the tools you must mention it explicitly without mentioning the tool names - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else.",
+      "timestamp": "2023-05-05T16:53:03.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.942271,
+        -0.522818,
+        -0.09923
+      ],
+      "cluster": 7,
+      "pivotScore": 0.229269,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459-a-8",
+      "threadId": "zeta-20230505_165247-xp9m0f8e-session_analysis_0_631aa3f5cc84b8f78459",
+      "seq": 69,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"In the last 30 days, there were a total of 3,288 clicks and 0 conversions across all marketing campaigns.\" } ```",
+      "timestamp": "2023-05-05T16:53:03.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230505_165247-xp9m0f8e/files/media/table/session_analysis_0_631aa3f5cc84b8f78459.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.94192,
+        -0.229425,
+        0.100243
+      ],
+      "cluster": 2,
+      "pivotScore": 0.23371,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-u-0",
+      "threadId": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello, how are you?",
+      "timestamp": "2023-05-06T11:51:16.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_115116-jatvh8z7/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.893967,
+        0.7462,
+        -0.895708
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-a-0",
+      "threadId": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 5,
+      "role": "assistant",
+      "text": "I'm an AI language model, so I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!",
+      "timestamp": "2023-05-06T11:51:16.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_115116-jatvh8z7/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.903705,
+        0.467641,
+        0.328352
+      ],
+      "cluster": 4,
+      "pivotScore": 0.647154,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-u-1",
+      "threadId": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How is it going today?",
+      "timestamp": "2023-05-06T11:51:18.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_115116-jatvh8z7/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.890577,
+        0.642927,
+        -0.803133
+      ],
+      "cluster": 1,
+      "pivotScore": 0.679535,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118-a-1",
+      "threadId": "zeta-20230506_115116-jatvh8z7-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"As an AI language model, I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!\" } ```",
+      "timestamp": "2023-05-06T11:51:18.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_115116-jatvh8z7/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        1,
+        0.205845,
+        -0.112719
+      ],
+      "cluster": 5,
+      "pivotScore": 0.354592,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-u-0",
+      "threadId": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello, how are you?",
+      "timestamp": "2023-05-06T13:10:00.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131000-79hxrtmn/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.882812,
+        0.746661,
+        -0.847864
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-a-0",
+      "threadId": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 5,
+      "role": "assistant",
+      "text": "I'm an AI language model, so I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!",
+      "timestamp": "2023-05-06T13:10:00.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131000-79hxrtmn/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.896017,
+        0.445505,
+        0.308048
+      ],
+      "cluster": 4,
+      "pivotScore": 0.647154,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-u-1",
+      "threadId": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How is it going today?",
+      "timestamp": "2023-05-06T13:10:02.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131000-79hxrtmn/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.910594,
+        0.647415,
+        -0.815637
+      ],
+      "cluster": 1,
+      "pivotScore": 0.679535,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118-a-1",
+      "threadId": "zeta-20230506_131000-79hxrtmn-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"As an AI language model, I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!\" } ```",
+      "timestamp": "2023-05-06T13:10:02.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131000-79hxrtmn/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.980843,
+        0.215034,
+        -0.132
+      ],
+      "cluster": 5,
+      "pivotScore": 0.354626,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-u-0",
+      "threadId": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello, how are you?",
+      "timestamp": "2023-05-06T13:11:23.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131123-jqadllzv/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.864573,
+        0.784864,
+        -0.847549
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-a-0",
+      "threadId": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 5,
+      "role": "assistant",
+      "text": "I'm an AI language model, so I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!",
+      "timestamp": "2023-05-06T13:11:23.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131123-jqadllzv/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.89582,
+        0.428365,
+        0.288281
+      ],
+      "cluster": 4,
+      "pivotScore": 0.646935,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-u-1",
+      "threadId": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 12,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): How is it going today?",
+      "timestamp": "2023-05-06T13:11:25.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131123-jqadllzv/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.900987,
+        0.638185,
+        -0.799325
+      ],
+      "cluster": 1,
+      "pivotScore": 0.679396,
+      "isPivot": true,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118-a-1",
+      "threadId": "zeta-20230506_131123-jqadllzv-session_analysis_0_fa48ba4b507b45335118",
+      "seq": 13,
+      "role": "assistant",
+      "text": "```json { \"action\": \"Final Answer\", \"action_input\": \"As an AI language model, I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions you have!\" } ```",
+      "timestamp": "2023-05-06T13:11:25.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230506_131123-jqadllzv/files/media/table/session_analysis_0_fa48ba4b507b45335118.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.965391,
+        0.205236,
+        -0.164473
+      ],
+      "cluster": 5,
+      "pivotScore": 0.3547,
+      "isPivot": false,
+      "clusterTransition": true
+    },
+    {
+      "id": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239-u-0",
+      "threadId": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239",
+      "seq": 4,
+      "role": "user",
+      "text": "Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else): Hello",
+      "timestamp": "2023-05-08T18:39:58.000Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230508_183958-veec92s4/files/media/table/session_analysis_0_029ae62bbbbf1bfc7239.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.863716,
+        0.954163,
+        -0.968376
+      ],
+      "cluster": 1,
+      "pivotScore": 0,
+      "isPivot": false,
+      "clusterTransition": false
+    },
+    {
+      "id": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239-a-0",
+      "threadId": "zeta-20230508_183958-veec92s4-session_analysis_0_029ae62bbbbf1bfc7239",
+      "seq": 5,
+      "role": "assistant",
+      "text": "Hello! How can I assist you today?",
+      "timestamp": "2023-05-08T18:39:58.900Z",
+      "sourceType": "zeta-session-analysis",
+      "sourcePath": "/Users/davidrose/git/zeta/OLD_omnisearch/wandb/run-20230508_183958-veec92s4/files/media/table/session_analysis_0_029ae62bbbbf1bfc7239.table.json",
+      "modelName": "ChatOpenAI",
+      "projection": [
+        0.834143,
+        0.473811,
+        0.553276
+      ],
+      "cluster": 4,
+      "pivotScore": 0.582142,
+      "isPivot": false,
+      "clusterTransition": true
+    }
+  ]
+}
